@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+  margin: auto;
+  max-width: 500px;
+  text-align: center;
+}
+div ul {
+  list-style: none;
+  background: #f4f4f4;
+  border: 1px solid #777;
+  padding: 10px;
+}
+div ul li {
+  padding: 5px;
+  border-bottom: 1px solid #777;
+}
+div ul li:last-child{
+  border-bottom: none;
+}
+div ul li span {
+  font-size: 20px;
+  font-weight: bold;
+  color: coral;
+}
+div ul li button {
+  padding: 5px;
+  border-radius: 25px;
+  background: skyblue;
+  color: blue;
+  border: 1px solid #777;
+}
